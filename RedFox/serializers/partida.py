@@ -6,4 +6,5 @@ class PartidaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Partida
         fields = "__all__"
+        depth = 2
 
